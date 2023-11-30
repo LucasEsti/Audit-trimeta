@@ -4,11 +4,12 @@ Analyse de la Performance Technique : 2
     	Convivialité sur différents navigateurs et appareils
 
 chargement images
-Diffusez des images de taille appropriée afin d'économiser des données mobiles et de réduire le temps de chargement
-chaque images doit avoir une format optimum pour un chargement mobile et sur un desktop (avoir un taille maximal)
-enduma et les autres logo
-Taille original :	9539 × 3297 px 
-taille recommander max: 128 × 44 px
+http://trimetagroup.com/images/alma/alma-1.webp
+http://trimetagroup.com/images/Wimmo/wimmo_2.webp
+http://trimetagroup.com/images/Groupe/groupe_10.webp
+http://trimetagroup.com/images/Enduma/enduma_2.webp
+http://trimetagroup.com/images/TAF/trimeta_4.webp
+http://trimetagroup.com/images/Millot/millot-plantation.webp
 
 taille recommander max: 2560 * 489 px
 Taille affichée :	4415 × 2943 px

@@ -1,0 +1,32 @@
+Indice de vitesse
+(en secondes)	Code de couleurs
+0–3,4	Vert (rapide)
+3,4 à 5,8	Orange (modéré)
+Plus de 5,8	Rouge (lent)
+
+
+Assurez-vous que le texte reste visible pendant le chargement de la police Web
+Les polices sont souvent des fichiers volumineux avec des temps de chargement lents. Certains navigateurs masquent le texte jusqu'au chargement de la police, provoquant un flash de texte invisible (FOIT) .
+
+dans le font principal ajouter font-display: swap;
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'),
+    url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2)
+      format('woff2');
+  font-display: swap;
+}
+
+ou preload <link rel="preload" as="font">
+ou ajouter Ajoutez le &display=swap
+link
+  href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+  rel="stylesheet"
+/>
+
+
+
+Réduisez le temps d’exécution de JavaScript
+

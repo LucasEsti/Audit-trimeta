@@ -1,0 +1,84 @@
+First Contentful Paint max 1,8 = chargement du premier element DOM apres le click de l'utilisateur pour entrer dans le site
+
+Éliminer les ressources qui bloquent l'affichage ou unitilisé
+css ou js non utilisé dans le site en entier 
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&amp;display=swap" rel="stylesheet">
+enlever ce lien
+refractorer les css si il y a des styles qui ne sont pas utiliser
+
+
+réduction des fichiers CSS peut améliorer les performances
+dans app.css
+on a:
+.prose-lg :where(ol):not(:where([class~=not-prose],[class~=not-prose] *)) {
+    margin-bottom: 1.3333333em;
+    margin-top: 1.3333333em;
+    padding-left: 1.5555556em
+}
+
+.prose-lg :where(ul):not(:where([class~=not-prose],[class~=not-prose] *)) {
+    margin-bottom: 1.3333333em;
+    margin-top: 1.3333333em;
+    padding-left: 1.5555556em
+}
+
+au lieu d'avoir 2 separer on pourrait assembler et avoir pour avoir des bytes en moins, ce present audit ne dispensera pas de tous code qu'on peut minifier dans le site en entier mais un manuel de bon
+pratique aux développeurs. Cette minimification permet aussi d'avoir un code propre et facilement maintenable:
+
+.prose-lg :where(ol):not(:where([class~=not-prose],[class~=not-prose] *)), 
+.prose-lg :where(ul):not(:where([class~=not-prose],[class~=not-prose] *)) {
+    margin-bottom: 1.3333333em;
+    margin-top: 1.3333333em;
+    padding-left: 1.5555556em
+}
+
+
+reduction des fichier images
+avoir des images de taille extremement reduite mais pourvant conserver un qualité d'images supérieurs est un défie. Toutefois, une extension est la parfaite candidat "webp", de plus ce format est signé google. Un même images sous jpg de 3Mo peut être 
+reduit à quelques centaine de Ko sous Webp
+dans le site, la plupart des iamges sont déjà sous format webp
+
+La mise en cache HTTP peut accélérer le temps de chargement de votre page lors de visites répétées.
+la mise en cache n'est pas activé sur le site
+https://www.giftofspeed.com/cache-checker/
+si wordpress W3 Total Cache 
+configuration: .htaccess
+l'en-tête Cache-Control définit l'âge maximum d'une ressource (en secondes), c’est-à-dire la durée maximum pendant laquelle cette ressource est valable ;
+
+l'en-tête Expires est utilisée pour spécifier un moment précis (une date) où la ressource n'est plus valide.
+
+Code à ajouter pour l'en-tête Cache-Control
+# BEGIN Cache-Control Headers
+<IfModule mod_headers.c>
+<FilesMatch "\.(ico|jpe?g|png|gif|swf|css|gz)$">
+Header set Cache-Control "max-age=2592000, public"
+</FilesMatch>
+<FilesMatch "\.(js)$">
+Header set Cache-Control "max-age=2592000, private"
+</FilesMatch>
+<filesMatch "\.(html|htm)$">
+Header set Cache-Control "max-age=7200, public"
+</filesMatch>
+# Enleve le cache pour les ressources dynamiques
+<FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
+Header unset Cache-Control
+</FilesMatch>
+</IfModule>
+# END Cache-Control Headers
+
+et Code à ajouter pour l'en-tête Expires
+# BEGIN Expires Headers
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access plus 1 year"
+ExpiresByType image/jpeg "access plus 1 year"
+ExpiresByType image/gif "access plus 1 year"
+ExpiresByType image/png "access plus 1 year"
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType application/pdf "access plus 1 month"
+ExpiresByType text/x-javascript "access plus 1 month"
+ExpiresByType application/x-shockwave-flash "access plus 1 month"
+ExpiresByType image/x-icon "access plus 1 year"
+ExpiresDefault "access plus 2 days"
+</IfModule>
+# END Expires Headers

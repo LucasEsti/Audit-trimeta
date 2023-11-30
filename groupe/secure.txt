@@ -2,6 +2,7 @@ https://www.trimetagroup.com/
 
 Analyse de la Sécurité : 1
     	Certificat SSL installé et configuré https avec toutes les redirections
+forcer la redirection https depuis htaccess
 
 Présence de failles de sécurité (vulnérabilités)
 - contenue mixte

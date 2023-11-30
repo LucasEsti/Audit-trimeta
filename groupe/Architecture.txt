@@ -26,8 +26,6 @@ News http://www.trimetagroup.com/news
 
 ajouter url version anglaise et separer aussi
 
-Recrutement avec formulaire pour postuler directement
-
 
 
     	Structure des liens internes (maillage interne, liens cassés)

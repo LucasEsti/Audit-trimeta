@@ -4,3 +4,4 @@ Enduma http://www.trimetagroup.com/activities/enduma
 plus attractif avec phone et mail cliquable
 utilisation de plugin de mise en cache
 	Une longue durée de vie du cache peut accélérer les visites répétées sur votre page.
+Recrutement avec formulaire pour postuler directement
