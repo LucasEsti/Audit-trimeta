@@ -1,0 +1,15 @@
+Analyse de la Performance Technique : 2
+    	Vitesse de chargement des pages
+    	Compatibilité mobile (site responsive design ou adaptation mobile)
+    	Convivialité sur différents navigateurs et appareils
+
+chargement images
+Diffusez des images de taille appropriée afin d'économiser des données mobiles et de réduire le temps de chargement
+chaque images doit avoir une format optimum pour un chargement mobile et sur un desktop (avoir un taille maximal)
+enduma et les autres logo
+Taille original :	9539 × 3297 px 
+taille recommander max: 128 × 44 px
+
+taille recommander max: 2560 * 489 px
+Taille affichée :	4415 × 2943 px
+Source actuelle :	http://www.trimetagroup.com/images/Groupe/groupe_10.webp

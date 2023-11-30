@@ -1,0 +1,26 @@
+https://www.trimetagroup.com/
+
+Analyse de la Sécurité : 1
+    	Certificat SSL installé et configuré https avec toutes les redirections
+
+Présence de failles de sécurité (vulnérabilités)
+- contenue mixte
+
+http://www.trimetagroup.com
+/css/navbar.css(www.trimetagroup.com)
+/css/app.css(www.trimetagroup.com)
+
+…logo/logo_enduma.webp
+…logo/logo_trimeta.webp
+…logo/logo_wimmo.webp
+…logo/Millot.webp
+…logo/logo_orkidex.webp
+…logo/alma_logo.webp
+/js/motion.js
+…Enduma/enduma_2.webp
+…TAF/trimeta_4.webp
+…Wimmo/wimmo_2.webp
+…Millot/millot-plantation.webp
+…TAF/trimeta_2.webp
+…alma/alma-1.webp
+…Groupe/groupe_10.webp
