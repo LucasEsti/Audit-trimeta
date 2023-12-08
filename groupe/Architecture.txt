@@ -1,4 +1,0 @@
-
-1- Architecture du site 
-	recommandations et actions spécifiques pour résoudre ces problèmes
-	choix de la technologie utilisé (maintenance, Mise à jours, gestion de contenu...)

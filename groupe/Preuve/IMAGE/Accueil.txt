@@ -1,0 +1,21 @@
+    Optimisation des images : Assurez-vous que vos images sont optimisées pour le web. Réduisez leur taille sans sacrifier trop la qualité pour améliorer le temps de chargement.
+
+    Utilisation du chargement différé (lazy loading) : Implémentez la technique de chargement différé des images. Cela signifie que les images ne se chargeront que lorsqu'elles seront visibles à l'écran, ce qui peut aider à réduire la quantité de contenu blanc avant le chargement complet de l'image.
+
+    Préchargement des images : Utilisez des attributs de préchargement pour les images. Cela peut être utile pour les images qui sont en vue à mesure que l'utilisateur fait défiler la page. En chargeant ces images en arrière-plan, vous pouvez réduire le délai entre le moment où elles deviennent visibles et celui où elles sont entièrement chargées.
+
+    Compression sans perte : Utilisez des outils de compression d'images sans perte pour réduire la taille des fichiers image sans affecter leur qualité visuelle.
+
+    Utilisation du cache : Configurez correctement les en-têtes HTTP pour tirer parti du cache du navigateur. Cela permettra aux images déjà chargées d'être stockées localement, réduisant ainsi le temps de chargement lors des visites ultérieures.
+
+    Tests et ajustements : Testez différents paramètres et méthodes pour charger les images et observez l'effet sur le chargement. En ajustant les paramètres, vous pourriez trouver la meilleure solution pour votre cas spécifique.
+
+
+
+http://www.trimetagroup.com/images/Enduma/enduma.webp 4415*2943 1,19Mo 1500*1000 163 Ko
+http://www.trimetagroup.com/images/TAF/trimeta_4.webp 3162 × 4743 px
+http://www.trimetagroup.com/images/Wimmo/wimmo_2.webp 5472 × 3648 px
+http://www.trimetagroup.com/images/TAF/trimeta_2.webp  4582 × 3055 px transformateur de vanille 
+http://www.trimetagroup.com/images/alma/alma-villas-product.webp 4582 × 3055 px
+
+http://www.trimetagroup.com/images/commitments-bg.webp 	5103 × 3402 px   2560 * 512
