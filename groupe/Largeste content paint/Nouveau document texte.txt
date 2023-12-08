@@ -1,22 +1,6 @@
-Max 4 
-bon 2,5
 
 images
 video
 gif
 background images
 
-reduction de poids et taille
-http://trimetagroup.com/images/logo/logo_trimeta.webp
-http://trimetagroup.com/images/logo/alma_logo.webp
-http://trimetagroup.com/images/logo/logo_wimmo.webp
-http://trimetagroup.com/images/logo/logo_enduma.webp
-http://trimetagroup.com/images/logo/logo_orkidex.webp
-http://trimetagroup.com/images/logo/Millot.webp
-http://trimetagroup.com/images/logo/alma_logo.webp
-Dimensionnez correctement les images
-Diffusez des images de taille appropriée afin d'économiser des données mobiles et de réduire le temps de chargement
-chaque images doit avoir une format optimum pour un chargement mobile et sur un desktop (avoir un taille maximal)
-enduma et les autres logo
-Taille original :	9539 × 3297 px 
-taille recommander max: 128 × 44 px

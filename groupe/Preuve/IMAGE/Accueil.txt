@@ -11,11 +11,3 @@
     Tests et ajustements : Testez différents paramètres et méthodes pour charger les images et observez l'effet sur le chargement. En ajustant les paramètres, vous pourriez trouver la meilleure solution pour votre cas spécifique.
 
 
-
-http://www.trimetagroup.com/images/Enduma/enduma.webp 4415*2943 1,19Mo 1500*1000 163 Ko
-http://www.trimetagroup.com/images/TAF/trimeta_4.webp 3162 × 4743 px
-http://www.trimetagroup.com/images/Wimmo/wimmo_2.webp 5472 × 3648 px
-http://www.trimetagroup.com/images/TAF/trimeta_2.webp  4582 × 3055 px transformateur de vanille 
-http://www.trimetagroup.com/images/alma/alma-villas-product.webp 4582 × 3055 px
-
-http://www.trimetagroup.com/images/commitments-bg.webp 	5103 × 3402 px   2560 * 512
