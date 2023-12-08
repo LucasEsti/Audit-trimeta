@@ -1,7 +1,6 @@
-Analyse de la Performance Technique : 2
-    	Vitesse de chargement des pages
+
     	Compatibilité mobile (site responsive design ou adaptation mobile)
-    	Convivialité sur différents navigateurs et appareils
+    	
 
 chargement images
 http://trimetagroup.com/images/alma/alma-1.webp

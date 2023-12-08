@@ -1,23 +1,4 @@
-https://www.trimetagroup.com/
 
-SEC_ERROR_EXPIRED_CERTIFICATE pour enduma mila reglena fa lasa tsy mahatoky ny users na trimeta agrofood koa ar
-
-Analyse de la Sécurité : 1
-    	Certificat SSL installé et configuré https avec toutes les redirections
-forcer la redirection https depuis htaccess
-misy le certificat fa tsy configuré 
-Let's Encrypt
-NET::ERR_CERT_COMMON_NAME_INVALID
-
-If the website is yours, make sure to configure SSL certificates for both www and non-www domains.
-Les sites web justifient leur identité par des certificats. Firefox ne fait pas confiance à ce site, car il utilise un certificat qui n’est pas valide pour www.trimetagroup.com. Le certificat n’est valide que pour da-uk2.hostns.io.
-
-
-Dns checker ts mbola propager
-https://www.whatsmydns.net/#A/trimetagroup.com
-
-Présence de failles de sécurité (vulnérabilités)
-- contenue mixte
 
 http://www.trimetagroup.com
 /css/navbar.css(www.trimetagroup.com)

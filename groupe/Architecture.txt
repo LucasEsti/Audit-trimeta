@@ -1,45 +1,4 @@
-Analyse de la Structure du Site : 16
 
-1- Architecture du site (arborescence, profondeur des pages (regles des 3 clics)
-    	URL conviviales et optimisées
-	différentes versions linguistiques
-Accueil http://www.trimetagroup.com/
-
-A propos de nous
-Les mots du président http://www.trimetagroup.com/about-us/ceo-words
-Dates clés http://www.trimetagroup.com/about-us/key-dates
-Notre histoires http://www.trimetagroup.com/about-us/our-history
-Our etchical charter http://www.trimetagroup.com/about-us/our-ethical-charter
-
-Nos activités
-Enduma http://www.trimetagroup.com/activities/enduma
-
-
-agrofood http://www.trimetagroup.com/activities/trimeta-agrofood
-wimmo http://www.trimetagroup.com/activities/wimmo
-Millot http://www.trimetagroup.com/activities/millot
-ORKIDEX  http://www.trimetagroup.com/activities/orkidex
-alma http://www.trimetagroup.com/activities/alma-villas
-
-Engagements http://www.trimetagroup.com/our-commitments
-News http://www.trimetagroup.com/news
-
-ajouter url version anglaise et separer aussi
-
-
-
-    	Structure des liens internes (maillage interne, liens cassés)
-
-
-    	Utilisation approprié des balises méta SEO
-meta titre et meta description manquantes
-
-	
-	Utilisation d'attributs <alt> pour les images
-mettre un texte plus descriptif pour pour chaque images (exemple l'image du logo enduma => au lieu avoir juste "logo" comme texte, mettre logo enduma pour que google indexes les logos de façons independantes.
-
+1- Architecture du site 
 	recommandations et actions spécifiques pour résoudre ces problèmes
-	gestion de pages d'erreurs 404
-creer une page et rediriger vers cette page toute requete ayant abouti au 404 (avoir une page complete avec le menu, contenu 404 et footer) pour ne pas perdre les utilisateurs et de ne les laisser dans le fils du site avec toutes les autres pages disponible
-
 	choix de la technologie utilisé (maintenance, Mise à jours, gestion de contenu...)
