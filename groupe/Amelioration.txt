@@ -1,5 +1,7 @@
 icon shorticon
 
+texte en accueil exportateur vanille et epice en fr
+
 Enduma http://www.trimetagroup.com/activities/enduma
 plus attractif avec phone et mail cliquable
 utilisation de plugin de mise en cache
