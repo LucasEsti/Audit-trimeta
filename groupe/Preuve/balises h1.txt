@@ -1,0 +1,12 @@
+1- toujour ajouter une balise h1
+2- classe
+.msq-h1 {
+position: absolute;
+left:-999px;
+width: 1px;
+height: 1px;
+overflow: hidden;
+clip: rect(1px, 1px, 1px, 1px);
+}
+
+cette classe masque le titre hors ecran mais accessible aux moteurs de recherches

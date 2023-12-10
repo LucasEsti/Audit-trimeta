@@ -1,0 +1,27 @@
+réduction des fichiers CSS peut améliorer les performances
+exemples dans app.css
+on a:
+.prose-lg :where(ol):not(:where([class~=not-prose],[class~=not-prose] *)) {
+    margin-bottom: 1.3333333em;
+    margin-top: 1.3333333em;
+    padding-left: 1.5555556em
+}
+
+.prose-lg :where(ul):not(:where([class~=not-prose],[class~=not-prose] *)) {
+    margin-bottom: 1.3333333em;
+    margin-top: 1.3333333em;
+    padding-left: 1.5555556em
+}
+
+au lieu d'avoir 2 separer on pourrait assembler et avoir pour avoir des bytes en moins, 
+ce present audit ne dispensera pas de tous code qu'on peut minifier dans le site en entier mais d'un manuel de bon
+pratique aux développeurs. Cette minimification permet aussi d'avoir un code propre et facilement maintenable:
+
+.prose-lg :where(ol):not(:where([class~=not-prose],[class~=not-prose] *)), 
+.prose-lg :where(ul):not(:where([class~=not-prose],[class~=not-prose] *)) {
+    margin-bottom: 1.3333333em;
+    margin-top: 1.3333333em;
+    padding-left: 1.5555556em
+}
+
+

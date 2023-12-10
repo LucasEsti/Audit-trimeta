@@ -1,0 +1,1 @@
+First Contentful Paint max 1,8 = chargement du premier element DOM apres le click de l'utilisateur pour entrer dans le site
