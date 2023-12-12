@@ -1,4 +1,4 @@
-1- toujour ajouter une balise h1
+1- toujours ajouter une balise h1 si possible en y ajoutant le titre principale de la page
 2- classe
 .msq-h1 {
 position: absolute;

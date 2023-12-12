@@ -1,0 +1,12 @@
+
+Security Headers
+Missing security header for ClickJacking Protection. Alternatively, you can use Content-Security-Policy: frame-ancestors 'none'.
+
+Missing security header to prevent Content Type sniffing.
+
+Missing Strict-Transport-Security security header. Affected pages:
+https://trimetagroup.com/
+
+Missing Content-Security-Policy directive. We recommend to add the following CSP directives (you can use default-src if all values are the same): script-src, object-src, base-uri, frame-src
+
+Leaked PHP version. Your site is displaying your PHP version in the HTTP headers. Please set expose_php = Off.

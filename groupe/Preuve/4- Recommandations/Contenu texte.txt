@@ -1,0 +1,29 @@
+
+----------------------------------------------------------
+Contenu texte
+
+Accueil
+	EN
+		texte "exportateur de vanille et epice" en français
+
+Our value
+	En
+		Contenu texte absent
+Nos engagements
+	VF
+		texte "Lutte controle le travail des enfants" => "Lutte contre le travail des enfants"
+		texte "Protection de l'information protection des ressources et transmission du savoir-faire." => "Protection de l'information, protection des ressources et transmission du savoir-faire."
+
+	EN
+		texte "Protection of the information protection of resources and transmission of know-how." => "Protection of the information, protection of resources and transmission of know-how."
+Trimeta agrofood
+	EN
+		titre "produit twine" => cinnamon
+Alma villa
+	VF
+		titre produits "beach front villa" => plages alma villas
+				"beach front villa 2" => chambre avec piscine
+				"garden villa"	=> piscine et jardin
+		premiere image redondant avec celui de beach front villa
+----------------------------------------------------------
+

@@ -1,0 +1,6 @@
+Fonctionnalités
+- ajouter shorticon pour chaque pages web
+- boutton "nous contacter" doit rediriger vers un formaire ou un mail
+- mettre les mails et les numeros de téléphones plus attractifs => au click rediriger vers boite mail ou un appel direct pour les numéros de téléphones
+- l'affichage des articles est redondant, la page Our history ne doit être affiché qu'une seul fois et de plus c'est la version FR qui est activé dons pas besoin de la page en VE (voir page nos missions)
+- pages carrières avec un formulaire de candidatures instantannés pour permettre aux candidats de postuler rapidement en envoyant directement leurs coordonnés et leurs CV
